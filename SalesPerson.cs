@@ -13,5 +13,11 @@ namespace MidtermProject
             totalSales = getSales;
         }
 
+        public void updateSales()
+        {  
+            float value = 0.0f;
+            float updatedSales = totalSales + value;
+        }
+
     }
 }
