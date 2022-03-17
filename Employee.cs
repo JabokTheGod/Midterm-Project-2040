@@ -9,13 +9,6 @@ namespace MidtermProject
         private string id { get; }
         private EmployeeType empType { get; }
 
-        //Enumerator
-        public enum EmployeeType
-        {
-            Sales,
-            Manager,
-            Production
-        }
 
         //Contructor
         public Employee(string getfirstName, string getlastName, string getid, EmployeeType getType)
@@ -31,6 +24,13 @@ namespace MidtermProject
             Console.WriteLine("Name: " , getfirstName , " " , getlastName);
             Console.WriteLine("ID: " , getid);
             Console.WriteLine("Type: " , getType);
+        }
+        //Enumerator
+        public enum EmployeeType
+        {
+            Sales,
+            Manager,
+            Production
         }
     }
 }
