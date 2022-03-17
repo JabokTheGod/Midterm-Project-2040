@@ -1,0 +1,5 @@
+C:\Users\jlram\OneDrive\Documents\Coding for Class\IT 2040\C#\Midterm Project\obj\Debug\net5.0\Midterm Project.csproj.AssemblyReference.cache
+C:\Users\jlram\OneDrive\Documents\Coding for Class\IT 2040\C#\Midterm Project\obj\Debug\net5.0\Midterm Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlram\OneDrive\Documents\Coding for Class\IT 2040\C#\Midterm Project\obj\Debug\net5.0\Midterm Project.AssemblyInfoInputs.cache
+C:\Users\jlram\OneDrive\Documents\Coding for Class\IT 2040\C#\Midterm Project\obj\Debug\net5.0\Midterm Project.AssemblyInfo.cs
+C:\Users\jlram\OneDrive\Documents\Coding for Class\IT 2040\C#\Midterm Project\obj\Debug\net5.0\Midterm Project.csproj.CoreCompileInputs.cache
