@@ -33,7 +33,6 @@ namespace MidtermProject
             Manager,
             Production
         }
-    
 }
 
 //Constructors do not have a return type, but you can pass values by reference using the ref keyword.
