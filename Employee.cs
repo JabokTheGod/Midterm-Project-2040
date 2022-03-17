@@ -19,11 +19,11 @@ namespace MidtermProject
             empType = getType;
         }
         
-        public void getEmployeeInfo(string getfirstName, string getlastName, string getid, EmployeeType getType) 
+        public void getEmployeeInfo() 
         {
-            Console.WriteLine("Name: " , getfirstName , " " , getlastName);
-            Console.WriteLine("ID: " , getid);
-            Console.WriteLine("Type: " , getType);
+            Console.WriteLine("Name: " , this.firstName , " " , this.lastName);
+            Console.WriteLine("ID: " , this.id);
+            Console.WriteLine("Type: " , this.empType);
         }
     }    
         //Enumerator
