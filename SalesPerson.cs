@@ -16,9 +16,11 @@ namespace MidtermProject
         {  
             float totalSales = this.totalSales + value;
         }
-        public void getSales() 
+        public float getSales() 
         {
-            float return;
+            float output = this.totalSales;
+            return output;
         }
+        
     }
 }
