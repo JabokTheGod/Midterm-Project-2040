@@ -12,12 +12,13 @@ namespace MidtermProject
             department = getDepartment;
             totalSales = getSales;
         }
-
-        public void updateSales()
+        public void updateSales(float value)
         {  
-            float value = 0.0f;
-            float updatedSales = totalSales + value;
+            float totalSales = this.totalSales + value;
         }
-
+        public void getSales() 
+        {
+            float return;
+        }
     }
 }
