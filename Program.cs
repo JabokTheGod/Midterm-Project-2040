@@ -27,7 +27,7 @@ namespace MidtermProject
             manager1.setLastName("Coyote");
             manager1.setRegion("Southeast");
             manager1.setDepartment("Automotive");
-            Console.WriteLine($"\nNew Name: {manager1.getFirstName()} {manager1.getlastName()}");
+            Console.WriteLine($"\nNew Name: {manager1.getFirstName()} {manager1.getLastName()}");
             Console.WriteLine($"New Dept: {manager1.getDepartment()} | New Region: {manager1.getRegion()}");
         }
     }

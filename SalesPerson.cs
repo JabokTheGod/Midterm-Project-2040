@@ -21,6 +21,37 @@ namespace MidtermProject
             float output = this.totalSales;
             return output;
         }
-        
+        //Enumerator
+        public enum SalesLevel
+        {
+            Platinum,
+            Diamond,
+            Gold,
+            Silver,
+            Bronze
+        }
+        public SalesLevel GetSalesLevel()
+        {
+            if (this.totalSales >= 40000) 
+            {
+                return SalesLevel.Platinum;
+            }
+            else if (this.totalSales <= 39999.99 && this.totalSales >= 30000)
+            {
+                return SalesLevel.Diamond;
+            }
+            else if (this.totalSales <= 29999.99 && this.totalSales >= 20000)
+            {
+                return SalesLevel.Gold;
+            }
+            else if (this.totalSales <= 19999.99 && this.totalSales >= 10000)
+            {
+                return SalesLevel.Silver;
+            }
+            else
+            {
+                return SalesLevel.Bronze;
+            }
+        }
     }
 }
